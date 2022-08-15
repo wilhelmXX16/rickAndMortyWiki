@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+/* header  */
+.header_container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img_header{
+    width: 100%;
+    max-height: 300px;
+}
+.title_page{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: xx-large;
+    color: azure;
+}
+.form_search{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.input_search{
+    width: 60%;
+}
+
+.universe_info{
+    background-color: rgb(27, 26, 26);
+    color: antiquewhite;
+    /* border: 1px solid gold; */
+}
+.title_2{
+    /* border: 1px solid blue; */
+    color: azure;
+    text-align: center;
+}
+.list_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    /* border: 1px solid violet; */
+}
+.list_info li {
+    /* border: 1px solid darkorange; */
+    list-style: none;
+}
+.list_info li span{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* cards informations */
+.card__container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    flex-wrap: wrap;
+    background-color: rgb(27, 26, 26);
+    color: azure;
+}
+.img_card{
+    width: 250px;
+    height: 250px;
+}
+.name{
+    margin-left: 8px;
+}
+.circle_status{
+    border: 2px solid green;
+    border-radius: 20px;
+    position: relative;
+    top: -230px; left: 0px;
+    width: 100px;
+    text-align: end;
+    background-color: black;
+}
+.circle_status span{
+    margin-right: 10px;
+}
+.list_card{
+    list-style: none;
+}
+.list_card li {
+    font-weight: bold;
+}
+.list_card li span{
+    font-weight: lighter;
+    color: grey;
+}
